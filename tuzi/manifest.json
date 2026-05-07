@@ -1,0 +1,41 @@
+﻿{
+    "id":  "tuzi",
+    "folder":  "tuzi",
+    "displayName":  "兔子",
+    "description":  "A chibi calico-tabby cat named 兔子, with green eyes, white chest and paws, and a soft blue scarf.",
+    "codexPetFile":  "pet.json",
+    "spritesheet":  {
+                        "path":  "spritesheet.webp",
+                        "format":  "WEBP",
+                        "mode":  "RGBA",
+                        "width":  1536,
+                        "height":  1872,
+                        "cellWidth":  192,
+                        "cellHeight":  208,
+                        "columns":  8,
+                        "rows":  9
+                    },
+    "requestedStateMapping":  {
+                                  "idle":  "idle",
+                                  "walk":  "running-right / running-left",
+                                  "run":  "running-right / running-left",
+                                  "sleep":  "waiting",
+                                  "thinking":  "review",
+                                  "working":  "running",
+                                  "success":  "jumping / waving",
+                                  "error":  "failed",
+                                  "waiting":  "waiting"
+                              },
+    "codexStates":  [
+                        "idle",
+                        "running-right",
+                        "running-left",
+                        "waving",
+                        "jumping",
+                        "failed",
+                        "waiting",
+                        "running",
+                        "review"
+                    ],
+    "notes":  "Codex Pets loads pet.json and spritesheet.webp. This manifest documents the user-facing action names and how they map onto Codex official pet animation rows."
+}
