@@ -1,5 +1,9 @@
 # Codex Pets
 
+<p align="center">
+  <a href="README.md">English</a> | <strong>中文</strong>
+</p>
+
 Codex 桌面宠物系统的宠物资源合集（[Codex 桌面宠物系统](https://github.com/codexorg/codex-pets)）。每个宠物都包含了导入 Codex 所需的全部文件：`pet.json` 描述符、`manifest.json` 动画状态映射文件，以及 WebP 格式的精灵图。
 
 ---

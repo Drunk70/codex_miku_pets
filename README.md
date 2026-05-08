@@ -1,5 +1,9 @@
 # Codex Pets
 
+<p align="center">
+  <strong>English</strong> | <a href="README_zh.md">中文</a>
+</p>
+
 A collection of desktop pet assets for the [Codex desktop pet system](https://github.com/codexorg/codex-pets). Each pet ships with everything needed to drop into Codex: a `pet.json` descriptor, a `manifest.json` with animation state mappings, and a WebP spritesheet.
 
 ---
